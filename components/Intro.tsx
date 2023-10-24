@@ -44,7 +44,7 @@ const Intro = () => {
             initial={{opacity:0, y:100}}
             animate={{opacity:1, y:0}}
             className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
-            <span className='font-bold'>Hello, I'm Ajay.</span> I'm a <span className='font-bold'>Full-Stack Developer</span> with 2 years of experince. I enjoy building web applications. My focus is React(Nextjs).
+            <span className='font-bold'>{`Hello, I'm Ajay`}.</span>{` I'm a `}<span className='font-bold'>Full-Stack Developer</span> with 2 years of experince. I enjoy building web applications. My focus is React{" "}(Nextjs).
         </motion.p>
         <motion.div 
             initial={{opacity:0, y:100}}
