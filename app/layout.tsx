@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import ActiveSectionContextProvider from '@/context/ActiveSectionContextProvider'
@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import ThemeContextProvider from '@/context/ThemeContextProvider'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio',
